@@ -26,6 +26,11 @@ h1 {
   margin: 0;
 }
 
+#result {
+  margin: 0;
+  display: inline-block;
+}
+
 input {
   width: 60px;
   height: 22px;
@@ -78,7 +83,4 @@ button {
 
 .red-text {
   color: #b91316;
-}
-
-.font {
 }

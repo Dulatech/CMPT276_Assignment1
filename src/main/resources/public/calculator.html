@@ -1,1 +1,60 @@
-<div>hi</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css" />
+    <script type="text/javascript" src="calculator.js"></script>
+  </head>
+  <body>
+    <div class="bars">
+    <div class="container"><h1 class="font">Grade Calculator</h1>
+    <div class="main-cont"><h3 class = "red-text">Activities</h3>
+    <p ></p>Give grade to the numeric activity:</p>
+    
+    <table >
+      <tr>
+        <th>Name</th>
+        <th>Short Name</th>
+        <th>Weight</th>
+        <th>Grade</th>
+        <th>Precent</th>
+      </tr>
+      <tr>
+        <td>Activity 1</td>
+        <td>A1</td>
+        <td><input ></td>
+        <td><input id="A1-num" onkeyup="calc_percent(1)"><span>/</span><br><input id="A1-denum" onkeyup="calc_percent(1)"></td>
+        <td id="A1-per"></td>
+      </tr>
+      <tr>
+        <td>Activity 2</td>
+        <td>A2</td>
+        <td><input ></td>
+        <td><input id="A2-num" onkeyup="calc_percent(2)"><span>/</span><br><input id="A2-denum" onkeyup="calc_percent(2)"></td>
+        <td id="A2-per"></td>
+      </tr>
+      <tr>
+        <td>Activity 3</td>
+        <td>A3</td>
+        <td><input ></td>
+        <td><input id="A3-num" onkeyup="calc_percent(3)"><span>/</span><br><input id="A3-denum" onkeyup="calc_percent(3)"></td>
+        <td id="A3-per"></td>
+      </tr>
+      <tr>
+        <td>Activity 4</td>
+        <td>A4</td>
+        <td><input ></td>
+        <td><input id="A4-num" onkeyup="calc_percent(4)"><span>/</span><br><input id="A4-denum" onkeyup="calc_percent(4)"></td>
+        <td id="A4-per"></td>
+      </tr>
+    </table>
+    <h3  class = "red-text">Result</h3>
+    <div class="btn-group"><button type="button">WEIGHTED</button><button type="button">MEAN</button></div>
+</div>
+</div>
+</div>
+
+  </body>
+</div>
+</html>

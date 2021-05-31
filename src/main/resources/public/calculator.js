@@ -81,6 +81,6 @@ function calc_weighted() {
     result.innerHTML =
       Math.round(((sum / count) * 100 + Number.EPSILON) * 100) / 100 + "%";
   } else {
-    result.innerHTML = "Please Enter a Grade and Weight.";
+    result.innerHTML = "Please Enter a Weight and Grade.";
   }
 }

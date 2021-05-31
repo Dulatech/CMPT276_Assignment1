@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'public/calculator')}">
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="calculator.css" />
-    
+    <title>CMPT 276 - Assignment 1</title>
   </head>
   <body>
     <div class="bars">
     <div class="container"><h1 class="font">Grade Calculator</h1>
     <div class="main-cont"><h3 class = "red-text">Activities</h3>
-    <p ></p>Give grade to the numeric activity:</p>
+    <p class="sub">Give grade to the numeric activity:</p>
     
     <table >
       <tr>

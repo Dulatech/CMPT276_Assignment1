@@ -92,6 +92,10 @@ button {
   font-weight: bold;
 }
 
+button:hover {
+  background-color: #6b0c0e;
+}
+
 .red-text {
   color: #b91316;
   font-size: 1.1em !important;

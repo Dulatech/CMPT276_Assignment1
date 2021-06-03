@@ -94,6 +94,7 @@ button {
 
 button:hover {
   background-color: #6b0c0e;
+  cursor: pointer;
 }
 
 .red-text {
